@@ -1,13 +1,14 @@
-import React from "react";
-import logo from "./logo.svg";
-import "./App.css";
+import React from 'react';
+import Quote from './components/quotes';
+import './App.css';
 
 function App() {
-    return (
-        <div className="App">
-            <header className="App-header">CHUCK SAYS!!</header>
-        </div>
-    );
+  return (
+    <div className="App">
+      <header className="App-header">CHUCK SAYS!!</header>
+      <Quote />
+    </div>
+  );
 }
 
 export default App;
